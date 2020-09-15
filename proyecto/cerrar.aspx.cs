@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace proyecto
 {
-    public partial class _Default : Page
+    public partial class cerrar : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            Session.Abandon();
+            Response.Redirect("login.aspx");
         }
     }
 }

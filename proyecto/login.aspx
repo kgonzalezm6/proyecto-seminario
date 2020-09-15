@@ -22,13 +22,14 @@
     </div>
 
     <!-- Login Form -->
-    <form>
+      <form id="form1" runat="server">
        <label for="login">Ingrese usuario:</label>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
-      <label for="login">Ingrese contraseña:</label>
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
-      <input type="submit" class="fadeIn fourth" value="Iniciar Sesión">
-    </form>
+          <asp:TextBox ID="txtusuario" runat="server" CssClass="fadeIn second"></asp:TextBox>
+&nbsp;<label for="login">Ingrese contraseña:</label>
+          <asp:TextBox ID="txtpass" runat="server" CssClass="fadeIn third"></asp:TextBox>
+&nbsp;<asp:Button ID="btnlogin" runat="server" CssClass="fadeIn fourth" OnClick="Button1_Click1" Text="Iniciar Sesión" />
+&nbsp;<asp:Label ID="lblerror" runat="server"></asp:Label>
+      </form>
 
     <!-- Remind Passowrd -->
     <div id="formFooter">

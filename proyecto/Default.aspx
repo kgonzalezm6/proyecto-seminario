@@ -81,6 +81,7 @@
                     <a href="#" id="enlace-productos" class="btn-header">Productos</a>
                     <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
                     <a href="login.aspx" class="btn_header"> Iniciar Sesión</a>
+                    <a href="#" class="btn_header"><i class="fa fa-shopping-cart"></i>  Carrito</a>
                 </div>
                 <div class="icono" id="open">
                     <span>&#9776;</span>

@@ -14,9 +14,26 @@ namespace proyecto
            
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
+  
 
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            try
+            {
+                DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
+                String userpass = obj.login(txtusuario.Text,txtpass.Text);
+                if (userpass != null)
+                {
+                    Session["usuario"]=userpass;
+                    Response.Redirect("default.aspx");
+
+                }
+
+            }
+            catch
+            {
+                lblerror.Text = "Usuario o contraseña incorrecta";
+            }
         }
     }
 }
