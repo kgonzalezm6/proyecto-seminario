@@ -25,7 +25,7 @@ namespace proyecto
                 if (userpass != null)
                 {
                     Session["usuario"]=userpass;
-                    Response.Redirect("default.aspx");
+                    Response.Redirect("verificar.aspx");
 
                 }
 

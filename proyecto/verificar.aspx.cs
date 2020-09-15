@@ -17,7 +17,7 @@ namespace proyecto
             }
             else
             {
-                Response.Redirect("admin.aspx");
+                Response.Redirect("default.aspx");
             }
         }
     }
