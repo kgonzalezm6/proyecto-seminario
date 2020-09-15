@@ -80,7 +80,7 @@
                     <a href="#" id="enlace-servicios" class="btn-header">Servicios</a>
                     <a href="#" id="enlace-productos" class="btn-header">Productos</a>
                     <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
-                    <a href="registro.php" class="btn_header"> Iniciar Sesión</a>
+                    <a href="login.aspx" class="btn_header"> Iniciar Sesión</a>
                 </div>
                 <div class="icono" id="open">
                     <span>&#9776;</span>
