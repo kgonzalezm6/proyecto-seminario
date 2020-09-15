@@ -19,9 +19,8 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1200px-User_font_awesome.svg.png" id="icon" alt="User Icon" /><br />
         <asp:Label ID="Label1" runat="server" style="font-size: x-small; text-align: left" Text="Ingrese usuario:"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" CssClass="fadeIn first" Width="400px"></asp:TextBox>
+      <img src="" id="icon" alt="User Icon"  width="40" /><asp:TextBox ID="TextBox1" runat="server" CssClass="fadeIn first" Width="400px"></asp:TextBox>
 &nbsp;</div>
 
     <!-- Login Form -->

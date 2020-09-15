@@ -19,7 +19,7 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1200px-User_font_awesome.svg.png" id="icon" alt="User Icon" /><br />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1200px-User_font_awesome.svg.png" id="icon" alt="User Icon" height="400" width="400" /><br />
         <asp:Label ID="Label3" runat="server" style="font-size: x-small; text-align: left" Text="Ingrese usuario:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtuser" runat="server" Text="Usuario" ForeColor="blue" CssClass="fadeIn second"  Width="400px"></asp:TextBox>
